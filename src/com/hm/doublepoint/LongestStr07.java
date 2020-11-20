@@ -5,7 +5,7 @@
 * @date 2020-11-16  
 * @version 1.0 
 */
-package com.atguigu.algorithm.leetcode.arr;
+package com.hm.doublepoint;
 
 import java.util.Arrays;
 import java.util.List;
