@@ -16,13 +16,16 @@ public class DistributeBiscuits_01 {
         System.out.println(DistributeBiscuits_01.findChildDbisNum(grid,biscuits));
     }
 
-    private static int findChildDbisNum(int[]grid,int[]biscuits){
-        Arrays.sort(grid);
-        Arrays.sort(biscuits);
+    private static int findChildDbisNum(int[]g,int[]s){
+        //1 先对两个数组进行排序
+        Arrays.sort(g);
+        Arrays.sort(s);
+        //2 定义数组的起始点
         int gridStart = 0;
         int biscuitsStart = 0;
-        while (gridStart<grid.length && biscuitsStart < biscuits.length){
-            if(grid[gridStart] <= biscuits[biscuitsStart]){
+        while (gridStart<g.length && biscuitsStart < s.length){
+            //3 如果饼干的size大于或者等于孩子的满足度grid，个数加一
+            if(g[gridStart] <= s[biscuitsStart]){
                 gridStart++;
             }
             biscuitsStart++;
