@@ -6,6 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
+ * https://www.cnblogs.com/yjxyy/p/11105035.html
  * 贪心思想： 根据身高和序号重组队列
  * Input:   [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]
  * Output:  [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]
