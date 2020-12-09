@@ -13,6 +13,7 @@ import java.util.List;
  * 最大的值，这个最大值如果和i相同了， 说明前i个字符都不再后面出现 可以分割了
  * 这里由于firstIndex引入这是为了计算差值，此处等于-1；
  *
+ *
  */
 public class PartitionLabels_11 {
     public static void main(String[] args) {
