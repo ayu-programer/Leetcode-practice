@@ -12,6 +12,7 @@ import java.util.List;
  * index不断增加 每遍历一个S中的字符就记录下这个字符最后出现的位置，定义一个lastIndex，记录前i个字符中，最后出现位置
  * 最大的值，这个最大值如果和i相同了， 说明前i个字符都不再后面出现 可以分割了
  * 这里由于firstIndex引入这是为了计算差值，此处等于-1；
+ *
  */
 public class PartitionLabels_11 {
     public static void main(String[] args) {
